@@ -15,7 +15,6 @@ function showTab(n) {
   } else {
     document.getElementById("nextBtn").innerHTML = "Next";
   }
-  //... and run a function that will display the correct step indicator:
   fixStepIndicator(n)
 }
 
@@ -44,7 +43,7 @@ function validateForm() {
   if (valid) {
     document.getElementsByClassName("step")[currentTab].className += " finish";
   }
-  return valid; // return the valid status
+  return valid;
 }
 
 function fixStepIndicator(n) {
