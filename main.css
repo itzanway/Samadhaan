@@ -52,3 +52,58 @@
     display: table;
     clear: both;
   }
+
+  nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 50px;
+    background-color: #ffffff;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  .search input[type=text]{
+    width:650px;
+    height:38px;
+    background-color: rgba(84, 121, 247, 1);
+    border-radius:20px;
+    border: 1px solid rgba(84, 121, 247, 1);
+    font-size: 21px;
+    color: #000000;
+ 
+}
+ 
+.search{
+    float:left;
+    margin:7px;
+    font-size: 25px;
+    
+ 
+}
+ 
+.search button{
+    background-color: #ffffff;
+    color: rgba(84, 121, 247, 1);
+    float: right;
+    padding: 5px 10px;
+    margin-right: 16px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
