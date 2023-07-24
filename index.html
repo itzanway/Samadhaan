@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Document</title>
 </head>
 
@@ -20,14 +20,50 @@
             <div class="search">
  
                 <form action="#">
-                    <input type="text" 
-                           placeholder=" Search for dish or chef"
+                    <input type="text" class="menusearch"
+                           placeholder=" Search for dish or chef" 
                            name="search">
-                           <button type="submit"><i class="fa fa-search"></i></button>
+                           <button type="submit"><i class="fa-solid fa-magnifying-glass" style="color: rgba(84, 121, 247, 1);"></i></button>
                 </form>
                 
             </div>
+            <form action="">
+            <button class="button button1"><i class="fa-solid fa-cart-shopping fa-2xl"></i></button>
+            <button class="button button2" width="50px">I'm tiffin walla</button>
+            <button class="">I'm a Chef</button>
+            
+            </form>
         </nav>
+        <section>
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <img src="images\samadhaan head.png" style="width:100%">
+                  <div class="text">Caption Text</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <img src="images\samadhaan head.png" style="width:100%">
+                  <div class="text">Caption Two</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <img src="images\samadhaan head.png" style="width:100%">
+                  <div class="text">Caption Three</div>
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+                
+                </div>
+                <br>
+                
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+        </section>
         
     </header>
     <script src="index.js"></script>
